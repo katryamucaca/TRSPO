@@ -21,4 +21,14 @@ Result:
 
 <img width="735" height="262" alt="image" src="https://github.com/user-attachments/assets/91d68277-ba12-487d-bea6-75710d54689f" />
 
+## МКР
+Task: client-server architecture with docker
+
+Result:
+
+<img width="940" height="368" alt="image" src="https://github.com/user-attachments/assets/792a20a3-b70c-4558-8b13-bdbedb47304e" />
+
+<img width="1280" height="434" alt="image" src="https://github.com/user-attachments/assets/c3d07ab8-249e-421f-9ac8-56977dd36e69" />
+
+
 
