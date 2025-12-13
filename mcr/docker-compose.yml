@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  server:
+    build: ./server
+    container_name: js_collatz_server
+    environment:
+      - SERVER_PORT=9000
+    expose:
+      - "9000"
+    networks:
+      - app_network
+
+  client:
+    build: ./client
+    container_name: js_collatz_client
+    environment:
+      - SERVER_HOST=server
+      - SERVER_PORT=9000
+      - COLLATZ_COUNT=1000
+    depends_on:
+      - server
+    networks:
+      - app_network
+
+networks:
+  app_network:
+    driver: bridge
